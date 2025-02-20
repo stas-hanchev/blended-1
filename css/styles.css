@@ -38,8 +38,6 @@ button {
 
 /* HEADER */
 
-.header {}
-
 .header-container {
     display: flex;
     align-items: center;
@@ -56,8 +54,6 @@ button {
     margin-right: 237px;
 }
 
-.logo-img {}
-
 .header-nav {
     margin-right: auto;
 }
@@ -66,8 +62,6 @@ button {
     display: flex;
     column-gap: 30px;
 }
-
-.header-nav-item {}
 
 .header-nav-link {
     display: block;
@@ -87,8 +81,6 @@ button {
     column-gap: 21px;
 }
 
-.header-btn-item {}
-
 .header-btn {
     border: 1px solid #bcd0e5;
     border-radius: 4px;
@@ -107,3 +99,69 @@ button {
     color: #fff;
     border-color: transparent;
 }
+
+/* SECTION 1 */
+
+.hero-section {
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    max-width: 452px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #22343d;
+    margin-bottom: 18px;
+}
+
+.hero-text {
+    max-width: 432px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55556;
+    color: #22343d;
+    margin-bottom: 45px;
+}
+
+.hero-btn-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.hero-btn {
+    border-radius: 4px;
+}
+
+.hero-btn-first {
+    color: #fff;
+    background: #02897a;
+    border-color: transparent;
+    min-width: 178px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.hero-btn-second {
+    border: none;
+    background-color: transparent;
+    min-width: 164px;
+    height: 53px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #02897a;
+}
+
+/* SECTION 2 */
+
